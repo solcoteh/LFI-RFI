@@ -17,7 +17,7 @@ pip install requests colorama
 Run program:
 
 ```
-python PHP_Filter_Test.py
+python PHP_Filter_Tester.py
 ```
 
 You will be prompted to enter:
