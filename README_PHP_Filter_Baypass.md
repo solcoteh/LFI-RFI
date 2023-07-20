@@ -1,4 +1,4 @@
-PHP Filter Testing Tool
+## PHP Filter Testing Tool
 
 ## Overview
 
