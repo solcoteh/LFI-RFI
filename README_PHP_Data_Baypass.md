@@ -8,18 +8,15 @@ Installation
 
 
 ```
-git clone https://github.com/ethicalhacker/php-exfiltrate
-cd php-exfiltrate
+git clone https://github.com/MolCoteH/LFI-RFI
+cd LFI-RFI
 ```
 # Usage
 
 ## To start the tool, simply run:
 
 ```
-git clone https://github.com/MolCoteH/LFI-RFI
-cd LFI-RFI
 python php-exfiltrate.py
-
 ```
 # This will present an interactive menu-driven interface to configure payload options.
 
