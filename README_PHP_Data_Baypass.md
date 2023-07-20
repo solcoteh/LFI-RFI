@@ -17,19 +17,20 @@ Or by cloning the GitHub repository:
 
 bash
 
+```
 Copy code
 git clone https://github.com/ethicalhacker/php-exfiltrate
 cd php-exfiltrate
+```
+## Usage
 
-Usage
+# To start the tool, simply run:
 
-To start the tool, simply run:
-
-bash
-
+```
 Copy code
 python php-exfiltrate.py
 
+```
 This will present an interactive menu-driven interface to configure payload options.
 
 The key steps are:
