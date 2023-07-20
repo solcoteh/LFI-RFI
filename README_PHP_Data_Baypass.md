@@ -1,5 +1,6 @@
-PHP Data Exfiltration Automation Tool
+## PHP Data Exfiltration Automation Tool
 
+## Overview
 This is an advanced penetration testing tool for automating the discovery and exploitation of PHP data exfiltration vulnerabilities in web applications. It allows ethical hackers and security researchers to efficiently test for issues like local file inclusion, remote code execution, path traversal etc.
 
 The tool is written in Python and works on Linux platforms. It has an intuitive text-based interface to guide the user through generating optimized payloads for injection testing.
