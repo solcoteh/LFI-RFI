@@ -1,7 +1,7 @@
 # LFI-RFI
-. is %252e, / is %252f
 Here are all the tools that we can use to automate LFI and RFI bugs
 
+. is %252e, / is %252f
 ## PayLoads
 
 ### [PHP_Baypass_PayLoads](https://github.com/MolCoteH/LFI-RFI/blob/Hack/PHP_Payloads.md)
