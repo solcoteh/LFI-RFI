@@ -1,4 +1,5 @@
 # LFI-RFI
+. is %252e, / is %252f
 Here are all the tools that we can use to automate LFI and RFI bugs
 
 ## PayLoads
