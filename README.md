@@ -3,6 +3,9 @@ Here are all the tools that we can use to automate LFI and RFI bugs
 ```bash
 . = %252e
 / = %252f
+
+allow_url_fopen = on
+allow_url_include = on
 ```
 ## PayLoads
 
