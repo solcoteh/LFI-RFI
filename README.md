@@ -6,6 +6,8 @@ Here are all the tools that we can use to automate LFI and RFI bugs
 
 allow_url_fopen = on
 allow_url_include = on
+
+/var/log/apache2/access.log
 ```
 ## PayLoads
 
